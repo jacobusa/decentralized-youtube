@@ -6,3 +6,5 @@
 - React for front end UI
 - Metamask for web3 crypto wallet
 - Truffle, Ganache for smart contract testing
+
+![Demo Image](demo.png)
