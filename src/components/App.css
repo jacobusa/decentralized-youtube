@@ -1,0 +1,58 @@
+/* Styles go here */
+body {
+  background-color: rgba(33, 33, 33, 0.95);
+}
+@media (min-width: 1000px) {
+  .main-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .col-md-10 {
+    max-width: 63%;
+  }
+  .col-md-2 {
+    max-height: unset !important;
+  }
+  .sidebar {
+    background: #aaa;
+    padding: 2em 2em;
+    /* width: 400px !important; */
+    margin: 2em 0;
+    border: none !important;
+    outline: none;
+  }
+  .embed-responsive {
+    position: unset;
+    display: unset;
+    width: unset;
+    padding: unset;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2em 0;
+  }
+  form input[type="text"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.form-group {
+  /* position: relative; */
+}
+
+.form-group input[type="text"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin: 1em 0 0.3em;
+  outline: none;
+  border: none;
+}
